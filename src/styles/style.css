@@ -97,3 +97,19 @@ header h1 {
     display: none;
   }
 }
+
+/* Missão 3, 4 e 5 */
+@media screen and (max-width: 480px), (orientation: portrait) {
+  .grid-pacotes {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dica-desktop {
+    display: none;
+  }
+}
